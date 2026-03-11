@@ -2,308 +2,395 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Privacy Policy for Mappr</title>
+    <title>Privacy Policy - Mappr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-                "Open Sans", "Helvetica Neue", sans-serif;
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            line-height: 1.6;
-            color: #333;
-            background: #fdfdfd;
-        }
-        h1, h2, h3, h4 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
             color: #2c3e50;
-            margin-top: 1.5rem;
+            background: #ffffff;
         }
-        h1 {
-            border-bottom: 2px solid #eaeaea;
-            padding-bottom: 0.3rem;
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
+        
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        
+        header p {
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        .intro {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #667eea;
+        }
+        
         h2 {
-            border-bottom: 1px solid #eaeaea;
-            padding-bottom: 0.2rem;
+            color: #667eea;
+            font-size: 1.6rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
         }
-        code {
-            background: #f5f5f5;
-            padding: 0.2rem 0.4rem;
-            border-radius: 3px;
-            font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        
+        h3 {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
         }
+        
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
         ul, ol {
-            margin-left: 1.2rem;
+            margin-left: 2rem;
+            margin-bottom: 1rem;
         }
+        
+        li {
+            margin-bottom: 0.6rem;
+            line-height: 1.8;
+        }
+        
+        code {
+            background: #f5f7fa;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #d63384;
+            font-size: 0.9rem;
+        }
+        
         a {
-            color: #007acc;
+            color: #667eea;
             text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
         }
+        
         a:hover {
+            color: #764ba2;
             text-decoration: underline;
         }
-        .note {
-            background: #fffae6;
-            border-left: 4px solid #ffecb3;
-            padding: 0.5rem 1rem;
-            margin: 1rem 0;
-        }
+        
         footer {
-            margin-top: 2rem;
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            margin-top: 3rem;
             text-align: center;
             font-size: 0.9rem;
-            color: #666;
+        }
+        
+        footer a {
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+            
+            h2 {
+                font-size: 1.4rem;
+            }
+            
+            h3 {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Privacy Policy</h1>
-        <p><em>Effective date: March 10, 2026</em></p>
+        <p>Effective date: March 10, 2026</p>
     </header>
 
-    <p>Mappr is an Android mobile application developed and operated by an individual developer. This Privacy Policy explains what information I may process when you use the app, why I process it, how it may be shared with service providers, and what choices you have.</p>
+    <div class="container">
+        <div class="intro">
+            <p>Mappr is an Android mobile application developed and operated by an individual developer. This Privacy Policy explains what information I may process when you use the app, why I process it, how it may be shared with service providers, and what choices you have.</p>
+        </div>
 
-    <h2>1. Summary</h2>
-    <p>Mappr processes location-related information because location is core to the app's functionality.</p>
-    <p>Depending on how you use the app, Mappr may process:</p>
-    <ul>
-        <li>Location data from your device to show your position in the app and support location-based features.</li>
-        <li>Search terms and map/routing requests that you submit.</li>
-        <li>Saved places, favorites, and route history that you choose to store locally on your device.</li>
-        <li>Crash, diagnostics, analytics, advertising, consent, and subscription-related information through third-party SDKs and service providers.</li>
-    </ul>
-    <p>Mappr does not require you to create an account, and I do not ask you to submit your name, postal address, or phone number to use the app.</p>
+        <h2>1. Summary</h2>
+        <p>Mappr processes location-related information because location is core to the app's functionality.</p>
+        <p>Depending on how you use the app, Mappr may process:</p>
+        <ul>
+            <li>Location data from your device to show your position in the app and support location-based features.</li>
+            <li>Search terms and map/routing requests that you submit.</li>
+            <li>Saved places, favorites, and route history that you choose to store locally on your device.</li>
+            <li>Crash, diagnostics, analytics, advertising, consent, and subscription-related information through third-party SDKs and service providers.</li>
+        </ul>
+        <p>Mappr does not require you to create an account, and I do not ask you to submit your name, postal address, or phone number to use the app.</p>
 
-    <h2>2. Information We Collect</h2>
+        <h2>2. Information We Collect</h2>
 
-    <h3>A. Location Data</h3>
-    <p>Mappr requests the following Android permissions where relevant to app functionality:</p>
-    <ul>
-        <li><code>ACCESS_FINE_LOCATION</code></li>
-        <li><code>ACCESS_COARSE_LOCATION</code></li>
-        <li><code>FOREGROUND_SERVICE</code></li>
-        <li><code>FOREGROUND_SERVICE_LOCATION</code></li>
-    </ul>
-    <p>When granted, Mappr may access your device location to:</p>
-    <ul>
-        <li>Center the map on your current position.</li>
-        <li>Show your location on the map.</li>
-        <li>Improve search relevance.</li>
-        <li>Reverse geocode coordinates into readable addresses.</li>
-        <li>Create routes and simulate movement along those routes.</li>
-        <li>Save your last-used map position and related settings locally on your device.</li>
-    </ul>
-    <p>Mappr also supports mock-location functionality. If you use that feature, the target coordinates you select and related route points may be processed locally and, when needed, sent to third-party routing or geocoding providers to calculate routes or return addresses.</p>
+        <h3>A. Location Data</h3>
+        <p>Mappr requests the following Android permissions where relevant to app functionality:</p>
+        <ul>
+            <li><code>ACCESS_FINE_LOCATION</code></li>
+            <li><code>ACCESS_COARSE_LOCATION</code></li>
+            <li><code>FOREGROUND_SERVICE</code></li>
+            <li><code>FOREGROUND_SERVICE_LOCATION</code></li>
+        </ul>
+        <p>When granted, Mappr may access your device location to:</p>
+        <ul>
+            <li>Center the map on your current position.</li>
+            <li>Show your location on the map.</li>
+            <li>Improve search relevance.</li>
+            <li>Reverse geocode coordinates into readable addresses.</li>
+            <li>Create routes and simulate movement along those routes.</li>
+            <li>Save your last-used map position and related settings locally on your device.</li>
+        </ul>
+        <p>Mappr also supports mock-location functionality. If you use that feature, the target coordinates you select and related route points may be processed locally and, when needed, sent to third-party routing or geocoding providers to calculate routes or return addresses.</p>
 
-    <h3>B. User-Provided Content</h3>
-    <p>The app may process information you actively enter or select, including:</p>
-    <ul>
-        <li>Location search queries.</li>
-        <li>Selected coordinates.</li>
-        <li>Saved place names and addresses.</li>
-        <li>Favorites.</li>
-        <li>Route start points, end points, waypoints, and route history.</li>
-        <li>Preferences such as map type, theme, distance unit, location accuracy, randomization settings, and schedule settings.</li>
-    </ul>
+        <h3>B. User-Provided Content</h3>
+        <p>The app may process information you actively enter or select, including:</p>
+        <ul>
+            <li>Location search queries.</li>
+            <li>Selected coordinates.</li>
+            <li>Saved place names and addresses.</li>
+            <li>Favorites.</li>
+            <li>Route start points, end points, waypoints, and route history.</li>
+            <li>Preferences such as map type, theme, distance unit, location accuracy, randomization settings, and schedule settings.</li>
+        </ul>
 
-    <h3>C. Locally Stored App Data</h3>
-    <p>Mappr stores certain data locally on your device using on-device storage technologies such as Room and Android DataStore. Based on the current implementation, local storage may include:</p>
-    <ul>
-        <li>Last selected latitude and longitude.</li>
-        <li>Camera position, zoom, bearing, and tilt.</li>
-        <li>Mocking state and schedule settings.</li>
-        <li>Map type, distance unit, theme, accuracy, and randomization preferences.</li>
-        <li>Saved locations, favorites, and location history.</li>
-        <li>Route history, including route addresses, waypoint count, route geometry, total distance, estimated duration, and speed.</li>
-        <li>Credit balance and premium/subscription cache state.</li>
-        <li>The last-seen version of in-app announcements.</li>
-    </ul>
+        <h3>C. Locally Stored App Data</h3>
+        <p>Mappr stores certain data locally on your device using on-device storage technologies such as Room and Android DataStore. Based on the current implementation, local storage may include:</p>
+        <ul>
+            <li>Last selected latitude and longitude.</li>
+            <li>Camera position, zoom, bearing, and tilt.</li>
+            <li>Mocking state and schedule settings.</li>
+            <li>Map type, distance unit, theme, accuracy, and randomization preferences.</li>
+            <li>Saved locations, favorites, and location history.</li>
+            <li>Route history, including route addresses, waypoint count, route geometry, total distance, estimated duration, and speed.</li>
+            <li>Credit balance and premium/subscription cache state.</li>
+            <li>The last-seen version of in-app announcements.</li>
+        </ul>
 
-    <h3>D. Diagnostics, Analytics, and App Performance Data</h3>
-    <p>Mappr includes Firebase services and Google mobile SDKs that may automatically collect certain technical and diagnostic data, depending on your device configuration, app version, and applicable SDK behavior. This may include:</p>
-    <ul>
-        <li>App instance information.</li>
-        <li>Device model and operating system information.</li>
-        <li>Crash logs, stack traces, and performance diagnostics.</li>
-        <li>Basic usage and event data.</li>
-        <li>IP address and network-related metadata used by service providers to deliver their services.</li>
-        <li>Device or app identifiers used by Google or Firebase SDKs for analytics, diagnostics, fraud prevention, or advertising operations.</li>
-    </ul>
-    <p>Current dependencies and integrations relevant to this category include Firebase Analytics, Firebase Crashlytics, and Firebase Remote Config.</p>
+        <h3>D. Diagnostics, Analytics, and App Performance Data</h3>
+        <p>Mappr includes Firebase services and Google mobile SDKs that may automatically collect certain technical and diagnostic data, depending on your device configuration, app version, and applicable SDK behavior. This may include:</p>
+        <ul>
+            <li>App instance information.</li>
+            <li>Device model and operating system information.</li>
+            <li>Crash logs, stack traces, and performance diagnostics.</li>
+            <li>Basic usage and event data.</li>
+            <li>IP address and network-related metadata used by service providers to deliver their services.</li>
+            <li>Device or app identifiers used by Google or Firebase SDKs for analytics, diagnostics, fraud prevention, or advertising operations.</li>
+        </ul>
+        <p>Current dependencies and integrations relevant to this category include Firebase Analytics, Firebase Crashlytics, and Firebase Remote Config.</p>
 
-    <h3>E. Advertising, Consent, and Subscription Data</h3>
-    <p>Mappr integrates Google AdMob, Google User Messaging Platform (UMP), and Google Play Billing.</p>
-    <p>These services may process data such as:</p>
-    <ul>
-        <li>Consent choices regarding ads in supported jurisdictions.</li>
-        <li>Advertising-related identifiers or signals made available by Google SDKs.</li>
-        <li>Ad request and ad delivery metadata.</li>
-        <li>Subscription product details, purchase status, purchase tokens, and entitlement status handled through Google Play.</li>
-    </ul>
-    <p>Mappr gates ad preloading behind the UMP consent flow where applicable. Subscription purchases are processed by Google Play, not directly by Mappr.</p>
+        <h3>E. Advertising, Consent, and Subscription Data</h3>
+        <p>Mappr integrates Google AdMob, Google User Messaging Platform (UMP), and Google Play Billing.</p>
+        <p>These services may process data such as:</p>
+        <ul>
+            <li>Consent choices regarding ads in supported jurisdictions.</li>
+            <li>Advertising-related identifiers or signals made available by Google SDKs.</li>
+            <li>Ad request and ad delivery metadata.</li>
+            <li>Subscription product details, purchase status, purchase tokens, and entitlement status handled through Google Play.</li>
+        </ul>
+        <p>Mappr gates ad preloading behind the UMP consent flow where applicable. Subscription purchases are processed by Google Play, not directly by Mappr.</p>
 
-    <h2>3. How I Use Information</h2>
-    <p>I use information to:</p>
-    <ul>
-        <li>Provide core map, search, geocoding, routing, and mock-location features.</li>
-        <li>Save your preferences and restore your last app state.</li>
-        <li>Maintain favorites, history, and route records you choose to keep on your device.</li>
-        <li>Support subscription features and restore premium status.</li>
-        <li>Show ads and manage ad consent where permitted by law.</li>
-        <li>Configure app messaging and notices through Remote Config.</li>
-        <li>Monitor crashes, diagnose bugs, improve stability, and maintain security.</li>
-        <li>Comply with legal obligations and enforce applicable terms and policies.</li>
-    </ul>
+        <h2>3. How I Use Information</h2>
+        <p>I use information to:</p>
+        <ul>
+            <li>Provide core map, search, geocoding, routing, and mock-location features.</li>
+            <li>Save your preferences and restore your last app state.</li>
+            <li>Maintain favorites, history, and route records you choose to keep on your device.</li>
+            <li>Support subscription features and restore premium status.</li>
+            <li>Show ads and manage ad consent where permitted by law.</li>
+            <li>Configure app messaging and notices through Remote Config.</li>
+            <li>Monitor crashes, diagnose bugs, improve stability, and maintain security.</li>
+            <li>Comply with legal obligations and enforce applicable terms and policies.</li>
+        </ul>
 
-    <h2>4. Location Data and Mapping-Specific Processing</h2>
-    <p>Because Mappr is a mapping and navigation-style app, location processing is central to the service.</p>
-    <h3>How location is processed</h3>
-    <ul>
-        <li>Your device location may be read locally from Android location services when you grant permission.</li>
-        <li>Coordinates you choose on the map may be sent for reverse geocoding to turn them into a readable address.</li>
-        <li>Text search requests may be sent to search providers to return matching places.</li>
-        <li>Route calculations may send route coordinates to third-party routing infrastructure.</li>
-        <li>The app may locally persist your last location, selected destination, saved places, and route history so the experience can be restored later.</li>
-    </ul>
-    <h3>Local storage of location information</h3>
-    <p>Based on the current app implementation, the following may be stored locally on your device until deleted or reset:</p>
-    <ul>
-        <li>Last viewed or selected location.</li>
-        <li>Favorite places and search/history entries.</li>
-        <li>Route history and route geometry.</li>
-        <li>Mock-location preferences and related scheduling state.</li>
-    </ul>
-    <h3>Third-party routing and geocoding</h3>
-    <p>To provide search, reverse geocoding, or route calculation, Mappr may send queries and coordinates to third-party providers, including:</p>
-    <ul>
-        <li>OpenStreetMap Nominatim for location search and reverse geocoding.</li>
-        <li>OSRM routing infrastructure for route generation.</li>
-        <li>Google geocoding functionality exposed through Android platform geocoder services.</li>
-        <li>Other third-party map providers we may enable over time, such as Mapbox.</li>
-    </ul>
-    <p>If Mappr transitions search or other map functions to another provider such as Mapbox, that provider may process the same types of data needed to answer your request, such as search text, selected coordinates, approximate or precise location, device/network metadata, and request logs.</p>
+        <h2>4. Location Data and Mapping-Specific Processing</h2>
+        <p>Because Mappr is a mapping and navigation-style app, location processing is central to the service.</p>
+        <h3>How location is processed</h3>
+        <ul>
+            <li>Your device location may be read locally from Android location services when you grant permission.</li>
+            <li>Coordinates you choose on the map may be sent for reverse geocoding to turn them into a readable address.</li>
+            <li>Text search requests may be sent to search providers to return matching places.</li>
+            <li>Route calculations may send route coordinates to third-party routing infrastructure.</li>
+            <li>The app may locally persist your last location, selected destination, saved places, and route history so the experience can be restored later.</li>
+        </ul>
 
-    <h2>5. Third-Party Service Providers and SDKs</h2>
-    <p>Mappr relies on third-party services to operate parts of the app. These providers process information under their own privacy terms.</p>
-    <h3>Google / Firebase</h3>
-    <p>
-        <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a><br>
-        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
-    </p>
-    <p>These services may include:</p>
-    <ul>
-        <li>Firebase Analytics</li>
-        <li>Firebase Crashlytics</li>
-        <li>Firebase Remote Config</li>
-        <li>Google Maps / Google Play Services</li>
-        <li>Google Mobile Ads (AdMob)</li>
-        <li>Google User Messaging Platform (UMP)</li>
-        <li>Google Play Billing</li>
-    </ul>
-    <h3>OpenStreetMap Nominatim</h3>
-    <p><a href="https://operations.osmfoundation.org/policies/nominatim/">Nominatim Usage Policy</a></p>
-    <p>When you search for a place or request reverse geocoding through the Nominatim-backed implementation, your query text and/or coordinates are sent to that service.</p>
-    <h3>OSRM</h3>
-    <p><a href="https://project-osrm.org/">OSRM project</a></p>
-    <p>When you calculate a route, route coordinates may be sent to public OSRM routing infrastructure to generate road-following paths, estimated durations, and distances.</p>
-    <h3>Mapbox</h3>
-    <p><a href="https://www.mapbox.com/legal/privacy">Mapbox Privacy Policy</a></p>
-    <p>Mappr is designed to support third-party map providers where needed. If Mapbox-powered search, geocoding, or mapping is enabled in a later version, Mapbox may process search queries, coordinates, approximate or precise location data, and technical request information needed to provide those services.</p>
-    <p>I encourage you to review each third party's privacy policy before using features that rely on that provider.</p>
+        <h3>Local storage of location information</h3>
+        <p>Based on the current app implementation, the following may be stored locally on your device until deleted or reset:</p>
+        <ul>
+            <li>Last viewed or selected location.</li>
+            <li>Favorite places and search/history entries.</li>
+            <li>Route history and route geometry.</li>
+            <li>Mock-location preferences and related scheduling state.</li>
+        </ul>
 
-    <h2>6. Legal Bases for Processing (GDPR)</h2>
-    <p>If you are located in the European Economic Area, United Kingdom, or another jurisdiction with similar requirements, I rely on one or more of the following legal bases:</p>
-    <ul>
-        <li>Consent: when you grant location permission, advertising consent, or other optional permissions.</li>
-        <li>Performance of a contract: when processing is required to provide the app features you request.</li>
-        <li>Legitimate interests: to secure, troubleshoot, improve, and operate the app responsibly.</li>
-        <li>Legal obligation: where processing is required to comply with applicable law.</li>
-    </ul>
-    <p>You may withdraw permission-based processing at any time by changing your device settings or applicable consent settings, although some features may stop working as intended.</p>
+        <h3>Third-party routing and geocoding</h3>
+        <p>To provide search, reverse geocoding, or route calculation, Mappr may send queries and coordinates to third-party providers, including:</p>
+        <ul>
+            <li>OpenStreetMap Nominatim for location search and reverse geocoding.</li>
+            <li>OSRM routing infrastructure for route generation.</li>
+            <li>Google geocoding functionality exposed through Android platform geocoder services.</li>
+            <li>Other third-party map providers we may enable over time, such as Mapbox.</li>
+        </ul>
+        <p>If Mappr transitions search or other map functions to another provider such as Mapbox, that provider may process the same types of data needed to answer your request, such as search text, selected coordinates, approximate or precise location, device/network metadata, and request logs.</p>
 
-    <h2>7. Data Sharing and Disclosure</h2>
-    <p>I do not sell your personal information for money.</p>
-    <p>Information may be disclosed or made available in the following circumstances:</p>
-    <ul>
-        <li>To service providers and SDK partners that support analytics, crash reporting, ads, consent management, billing, search, geocoding, route calculation, hosting, or infrastructure.</li>
-        <li>To comply with law, regulation, legal process, or enforceable governmental requests.</li>
-        <li>To protect the rights, safety, security, and integrity of Mappr, its users, or the public.</li>
-        <li>In connection with a merger, acquisition, financing, asset sale, or similar business transaction.</li>
-    </ul>
-    <p>For users in California or similar jurisdictions, some advertising or analytics-related SDK processing may be treated as "sharing" under applicable law, depending on how those laws apply to mobile identifiers and ad-tech processing. Where required, I rely on Google's consent and privacy controls and will honor applicable legal obligations.</p>
+        <h2>5. Third-Party Service Providers and SDKs</h2>
+        <p>Mappr relies on third-party services to operate parts of the app. These providers process information under their own privacy terms.</p>
+        <h3>Google / Firebase</h3>
+        <p>
+            <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a><br>
+            <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+        </p>
+        <p>These services may include:</p>
+        <ul>
+            <li>Firebase Analytics</li>
+            <li>Firebase Crashlytics</li>
+            <li>Firebase Remote Config</li>
+            <li>Google Maps / Google Play Services</li>
+            <li>Google Mobile Ads (AdMob)</li>
+            <li>Google User Messaging Platform (UMP)</li>
+            <li>Google Play Billing</li>
+        </ul>
+        <h3>OpenStreetMap Nominatim</h3>
+        <p><a href="https://operations.osmfoundation.org/policies/nominatim/">Nominatim Usage Policy</a></p>
+        <p>When you search for a place or request reverse geocoding through the Nominatim-backed implementation, your query text and/or coordinates are sent to that service.</p>
+        <h3>OSRM</h3>
+        <p><a href="https://project-osrm.org/">OSRM project</a></p>
+        <p>When you calculate a route, route coordinates may be sent to public OSRM routing infrastructure to generate road-following paths, estimated durations, and distances.</p>
+        <h3>Mapbox</h3>
+        <p><a href="https://www.mapbox.com/legal/privacy">Mapbox Privacy Policy</a></p>
+        <p>Mappr is designed to support third-party map providers where needed. If Mapbox-powered search, geocoding, or mapping is enabled in a later version, Mapbox may process search queries, coordinates, approximate or precise location data, and technical request information needed to provide those services.</p>
+        <p>I encourage you to review each third party's privacy policy before using features that rely on that provider.</p>
 
-    <h2>8. Data Retention</h2>
-    <p>Information is kept only for as long as reasonably necessary for the purposes described in this Privacy Policy.</p>
-    <h3>Data stored locally on your device</h3>
-    <p>Favorites, route history, app settings, premium cache state, and similar on-device records remain on your device until:</p>
-    <ul>
-        <li>You delete them in the app.</li>
-        <li>You use the app's "Clear All Data" feature.</li>
-        <li>You clear app storage through Android system settings.</li>
-        <li>You uninstall the app, subject to normal Android behavior.</li>
-    </ul>
-    <h3>Third-party service data</h3>
-    <p>Crash reports, analytics records, ad-related data, consent records, billing information, and infrastructure logs may be retained by the relevant third-party provider according to that provider's retention schedule and privacy policy.</p>
-    <h3>Search and routing requests</h3>
-    <p>Queries and coordinates sent to geocoding, search, or routing providers may be processed transiently and may also be logged by those providers under their own policies.</p>
+        <h2>6. Legal Bases for Processing (GDPR)</h2>
+        <p>If you are located in the European Economic Area, United Kingdom, or another jurisdiction with similar requirements, I rely on one or more of the following legal bases:</p>
+        <ul>
+            <li>Consent: when you grant location permission, advertising consent, or other optional permissions.</li>
+            <li>Performance of a contract: when processing is required to provide the app features you request.</li>
+            <li>Legitimate interests: to secure, troubleshoot, improve, and operate the app responsibly.</li>
+            <li>Legal obligation: where processing is required to comply with applicable law.</li>
+        </ul>
+        <p>You may withdraw permission-based processing at any time by changing your device settings or applicable consent settings, although some features may stop working as intended.</p>
 
-    <h2>9. Your Rights and Choices</h2>
-    <p>Depending on your jurisdiction, you may have the right to:</p>
-    <ul>
-        <li>Access information about how your data is processed.</li>
-        <li>Request deletion of information we control.</li>
-        <li>Request correction of inaccurate information.</li>
-        <li>Object to or restrict certain processing.</li>
-        <li>Withdraw consent where processing is based on consent.</li>
-        <li>Request portability where applicable.</li>
-        <li>Exercise rights related to targeted advertising or sharing under applicable U.S. state privacy laws.</li>
-    </ul>
-    <h3>In-app and device controls</h3>
-    <p>You can also control data through the app and your device by:</p>
-    <ul>
-        <li>Denying or revoking location permission.</li>
-        <li>Managing ad consent through supported Google consent flows.</li>
-        <li>Deleting saved history, route history, favorites, or app data.</li>
-        <li>Clearing app storage through Android settings.</li>
-    </ul>
-    <p>To exercise privacy rights that require my assistance, contact me at <a href="mailto:rayyanmasterx@gmail.com">rayyanmasterx@gmail.com</a>.</p>
+        <h2>7. Data Sharing and Disclosure</h2>
+        <p>I do not sell your personal information for money.</p>
+        <p>Information may be disclosed or made available in the following circumstances:</p>
+        <ul>
+            <li>To service providers and SDK partners that support analytics, crash reporting, ads, consent management, billing, search, geocoding, route calculation, hosting, or infrastructure.</li>
+            <li>To comply with law, regulation, legal process, or enforceable governmental requests.</li>
+            <li>To protect the rights, safety, security, and integrity of Mappr, its users, or the public.</li>
+            <li>In connection with a merger, acquisition, financing, asset sale, or similar business transaction.</li>
+        </ul>
+        <p>For users in California or similar jurisdictions, some advertising or analytics-related SDK processing may be treated as "sharing" under applicable law, depending on how those laws apply to mobile identifiers and ad-tech processing. Where required, I rely on Google's consent and privacy controls and will honor applicable legal obligations.</p>
 
-    <h2>10. International Data Transfers</h2>
-    <p>Some service providers may process information on servers located outside your country of residence. By using Mappr, you understand that information may be transferred to and processed in countries that may have different data protection laws than your own.</p>
-    <p>Where required, I rely on appropriate safeguards provided by those service providers under applicable law.</p>
+        <h2>8. Data Retention</h2>
+        <p>Information is kept only for as long as reasonably necessary for the purposes described in this Privacy Policy.</p>
+        <h3>Data stored locally on your device</h3>
+        <p>Favorites, route history, app settings, premium cache state, and similar on-device records remain on your device until:</p>
+        <ul>
+            <li>You delete them in the app.</li>
+            <li>You use the app's "Clear All Data" feature.</li>
+            <li>You clear app storage through Android system settings.</li>
+            <li>You uninstall the app, subject to normal Android behavior.</li>
+        </ul>
+        <h3>Third-party service data</h3>
+        <p>Crash reports, analytics records, ad-related data, consent records, billing information, and infrastructure logs may be retained by the relevant third-party provider according to that provider's retention schedule and privacy policy.</p>
+        <h3>Search and routing requests</h3>
+        <p>Queries and coordinates sent to geocoding, search, or routing providers may be processed transiently and may also be logged by those providers under their own policies.</p>
 
-    <h2>11. Security</h2>
-    <p>I use commercially reasonable administrative, technical, and organizational measures intended to protect information processed through Mappr. However, no method of transmission over the Internet and no method of electronic storage is completely secure, and I cannot guarantee absolute security.</p>
+        <h2>9. Your Rights and Choices</h2>
+        <p>Depending on your jurisdiction, you may have the right to:</p>
+        <ul>
+            <li>Access information about how your data is processed.</li>
+            <li>Request deletion of information we control.</li>
+            <li>Request correction of inaccurate information.</li>
+            <li>Object to or restrict certain processing.</li>
+            <li>Withdraw consent where processing is based on consent.</li>
+            <li>Request portability where applicable.</li>
+            <li>Exercise rights related to targeted advertising or sharing under applicable U.S. state privacy laws.</li>
+        </ul>
+        <h3>In-app and device controls</h3>
+        <p>You can also control data through the app and your device by:</p>
+        <ul>
+            <li>Denying or revoking location permission.</li>
+            <li>Managing ad consent through supported Google consent flows.</li>
+            <li>Deleting saved history, route history, favorites, or app data.</li>
+            <li>Clearing app storage through Android settings.</li>
+        </ul>
+        <p>To exercise privacy rights that require my assistance, contact me at <a href="mailto:rayyanmasterx@gmail.com">rayyanmasterx@gmail.com</a>.</p>
 
-    <h2>12. Children's Privacy</h2>
-    <p>Mappr is not directed to children under 13, and I do not knowingly collect personal information directly from children under 13. If you believe a child has provided personal information in connection with the app, contact me at <a href="mailto:rayyanmasterx@gmail.com">rayyanmasterx@gmail.com</a> so I can review the issue.</p>
-    <p>If local law provides a higher age threshold for children's data, that higher threshold will apply where required.</p>
+        <h2>10. International Data Transfers</h2>
+        <p>Some service providers may process information on servers located outside your country of residence. By using Mappr, you understand that information may be transferred to and processed in countries that may have different data protection laws than your own.</p>
+        <p>Where required, I rely on appropriate safeguards provided by those service providers under applicable law.</p>
 
-    <h2>13. Links to Third-Party Sites and Services</h2>
-    <p>The app may link to or rely on third-party services. I do not control the privacy practices of third-party websites, SDK providers, or service operators. I recommend reviewing their privacy notices directly.</p>
+        <h2>11. Security</h2>
+        <p>I use commercially reasonable administrative, technical, and organizational measures intended to protect information processed through Mappr. However, no method of transmission over the Internet and no method of electronic storage is completely secure, and I cannot guarantee absolute security.</p>
 
-    <h2>14. Changes to This Privacy Policy</h2>
-    <p>I may update this Privacy Policy from time to time to reflect changes in the app, legal requirements, or third-party integrations. When that happens, I will post the updated version with a new effective date.</p>
+        <h2>12. Children's Privacy</h2>
+        <p>Mappr is not directed to children under 13, and I do not knowingly collect personal information directly from children under 13. If you believe a child has provided personal information in connection with the app, contact me at <a href="mailto:rayyanmasterx@gmail.com">rayyanmasterx@gmail.com</a> so I can review the issue.</p>
+        <p>If local law provides a higher age threshold for children's data, that higher threshold will apply where required.</p>
 
-    <h2>15. Contact</h2>
-    <p>If you have questions, requests, or concerns about this Privacy Policy or Mappr's privacy practices, contact me at:</p>
-    <ul>
-        <li>Email: <a href="mailto:rayyanmasterx@gmail.com">rayyanmasterx@gmail.com</a></li>
-    </ul>
+        <h2>13. Links to Third-Party Sites and Services</h2>
+        <p>The app may link to or rely on third-party services. I do not control the privacy practices of third-party websites, SDK providers, or service operators. I recommend reviewing their privacy notices directly.</p>
 
-    <h2>16. Data Deletion</h2>
-    <p>Mappr does not require a user account and does not store saved places, history, or settings on external Mappr servers.</p>
-    <p>Users can delete locally stored Mappr data in any of the following ways:</p>
-    <ul>
-        <li>Use the in-app <code>Settings &gt; Data Management &gt; Clear All Data</code> option.</li>
-        <li>Clear app storage or app data from Android system settings.</li>
-        <li>Uninstall the app.</li>
-    </ul>
+        <h2>14. Changes to This Privacy Policy</h2>
+        <p>I may update this Privacy Policy from time to time to reflect changes in the app, legal requirements, or third-party integrations. When that happens, I will post the updated version with a new effective date.</p>
+
+        <h2>15. Contact</h2>
+        <p>If you have questions, requests, or concerns about this Privacy Policy or Mappr's privacy practices, contact me at:</p>
+        <ul>
+            <li>Email: <a href="mailto:rayyanmasterx@gmail.com">rayyanmasterx@gmail.com</a></li>
+        </ul>
+
+        <h2>16. Data Deletion</h2>
+        <p>Mappr does not require a user account and does not store saved places, history, or settings on external Mappr servers.</p>
+        <p>Users can delete locally stored Mappr data in any of the following ways:</p>
+        <ul>
+            <li>Use the in-app <code>Settings &gt; Data Management &gt; Clear All Data</code> option.</li>
+            <li>Clear app storage or app data from Android system settings.</li>
+            <li>Uninstall the app.</li>
+        </ul>
+    </div>
 
     <footer>
-        <!-- footer intentionally left blank -->
+        <p>&copy; 2026 Mappr. All rights reserved.</p>
     </footer>
 </body>
 </html>
